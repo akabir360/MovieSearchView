@@ -29,7 +29,7 @@ struct MovieDetail: Codable {
 }
 
 class APIClient {
-    static let apiKey = "fcc2748e92609cd6fd77023b9ed3f598"
+    static let apiKey = "api_key"
     static let baseURL = "https://api.themoviedb.org/3"
     
     static func searchMovies(query: String, completion: @escaping ([Movie]) -> ()) {
